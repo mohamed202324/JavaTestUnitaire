@@ -7,13 +7,13 @@ class LoanCalculatorTest {
 
     @Test
     void calculMensualiteDoitRetournerUneValeurPositive() {
-        // Arrange
+
         LoanCalculator calc = new LoanCalculator();
 
-        // Act
+
         double resultat = calc.calculMensualite(10000, 0.05, 10);
 
-        // Assert
+
         assertTrue(resultat > 0);
     }
 
